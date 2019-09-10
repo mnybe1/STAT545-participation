@@ -1,4 +1,4 @@
-#Helpful links
+# Helpful links
 
 Here is the URL to the __STAT545 homepage__ repo:
 
