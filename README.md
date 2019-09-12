@@ -5,5 +5,6 @@
 
 
 
-## Weekly participation
-[Weeks 1 & 2](https://github.com/mnybe1/STAT545-participation/tree/master/Weeks%201_%26_2)
+## Class guide
+* [Weeks 1 & 2](https://github.com/mnybe1/STAT545-participation/tree/master/Weeks%201_%26_2)
+Introduction; Intro to R; Authoring; Version control workflow
