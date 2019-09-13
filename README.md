@@ -14,5 +14,10 @@ Introduction; Intro to R; Authoring; Version control workflow
 * [RStudio markdown cheat sheat](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
 
 ## Homework
-1. -[x] [Assignment 1](https://github.com/mnybe1/STAT545-participation/blob/master/README.md)
-2.
+-[x] [Assignment 1](https://github.com/mnybe1/STAT545-participation/blob/master/README.md)
+-[ ] Assignment 2
+-[ ] Assignment 3
+-[ ] Assignment 4
+-[ ] Assignment 5
+
+
