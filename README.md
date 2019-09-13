@@ -8,3 +8,11 @@
 ## Class guide
 * [Weeks 1 & 2](https://github.com/mnybe1/STAT545-participation/tree/master/Weeks%201_%26_2)
 Introduction; Intro to R; Authoring; Version control workflow
+
+## Helpful resources
+* [Github markdown cheat sheat](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [RStudio markdown cheat sheat](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+
+## Homework
+1. -[x] [Assignment 1](https://github.com/mnybe1/STAT545-participation/blob/master/README.md)
+2.
