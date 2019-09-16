@@ -20,18 +20,18 @@ summary(gapminder)
 nrow(gapminder)
 ```
 
-
-## A scatterplot of life expectancy by year
-
 ```{r}
-ggplot(gapminder, aes(year, lifeExp, group=year))+
+mean(gapminder$lifeExp)
+```
+
+
+
+## A boxplot of life expectancy by year
+```{r}
+ggplot(gapminder, aes(year,lifeExp, group=year))+
   geom_boxplot()+
   theme_classic()
 ```
 
-## Linear regression for life expectancy as a function of year
-```{r}
-lm.lifeexpec <- lm(lifeExp~year, gapminder)
-summary(lm.lifeexpec)
-```
+
 
