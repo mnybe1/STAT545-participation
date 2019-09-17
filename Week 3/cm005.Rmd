@@ -47,12 +47,12 @@ Fill in the seven grammar components for this plot.
 | Grammar Component     | Specification |
 |-----------------------|---------------|
 | __data__              | `gapminder` |
-| __aesthetic mapping__ | FILL_THIS_IN |
-| __geometric object__  | FILL_THIS_IN |
-| scale                 | FILL_THIS_IN |
-| statistical transform | FILL_THIS_IN |
-| coordinate system     | FILL_THIS_IN |
-| facetting             | FILL_THIS_IN |
+| __aesthetic mapping__ | `x=continent, y=count` |
+| __geometric object__  | `bar` |
+| scale                 | `linear` |
+| statistical transform | `count` |
+| coordinate system     | `cartesian` |
+| facetting             | `no` |
 
 ## Exercise 2: `ggplot2` Syntax (Your Turn)
 
@@ -82,8 +82,8 @@ Produce a line chart showing the concentration over time. Specifically, the plot
 Fill in the blanks to obtain the plot:
 
 ```{r, fig.width = 5, fig.height = 2}
-ggplot(FILL_THIS_IN, aes(FILL_THIS_IN, FILL_THIS_IN)) +
-  FILL_THIS_IN()
+ggplot(mauna, aes(month, conc)) +
+  geom_line()
 ```
 
 ### 2(b)
@@ -96,8 +96,10 @@ It turns out that you're allowed to specify the aesthetic mappings in a `geom` l
 The following code mistakenly puts the month variable on the y-axis. Fill in the `FILL_THIS_IN` so that you still obtain the same result as above.
 
 ```{r, fig.width = 5, fig.height = 2}
-ggplot(mauna, aes(y = month)) +
-  geom_point(aes(FILL_THIS_IN))
+(p <- ggplot(mauna, aes(y = month)) +
+  geom_line(aes(month, conc))+
+  labs(y="conc"))
+
 ```
 
 ### 2(c)
@@ -106,7 +108,7 @@ You can store the output of the plot in a variable, too. Store the plot from 2(a
 
 ```{r, fig.width = 5, fig.height = 2}
 p +
-  FILL_THIS_IN(colour = FILL_THIS_IN)
+  geom_point(aes(month,conc),colour = "green", alpha=0.2)
 ```
 
 ### 2(d)
@@ -115,7 +117,7 @@ What's wrong with the following code? Fix it.
 
 ```{r, fig.width = 5, fig.height = 2}
 ggplot(gapminder) +
-  geom_point(x = gdpPercap, y = lifeExp, alpha = 0.1)
+  geom_point(aes(x = gdpPercap, y = lifeExp, alpha = 0.1))
 ```
 
 
