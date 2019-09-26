@@ -49,13 +49,6 @@ gapminder %>%
 
 3. Determine the country that experienced the sharpest 5-year drop in life expectancy, in each continent, sorted by the drop, by rearranging the following lines of code. Ensure there are no `NA`'s. Instead of using `lag()`, use the convenience function provided by the `tsibble` package, `tsibble::difference()`:
 
-```
- 
- 
- 
-
-
-```
 
 ```{r}
 gapminder %>% 
