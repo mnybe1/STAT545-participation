@@ -9,6 +9,10 @@
 ## Class guide
 * [Weeks 1 & 2](https://github.com/mnybe1/STAT545-participation/tree/master/Weeks%201_%26_2)
 Introduction; Intro to R; Authoring; Version control workflow
+* [Week 3](https://github.com/mnybe1/STAT545-participation/tree/master/Week%203)
+Intro to plotting (ggplot) and data wrangling
+* [Week 4](https://github.com/mnybe1/STAT545-participation/tree/master/Week%204)
+More data wrangling and plotting 
 
 ## Helpful resources
 * [Github markdown cheat sheat](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
