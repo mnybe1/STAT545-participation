@@ -6,7 +6,7 @@
 
 
 
-## Class guide
+## Class guide and participation
 * [Weeks 1 & 2](https://github.com/mnybe1/STAT545-participation/tree/master/Weeks%201_%26_2)
 Introduction; Intro to R; Authoring; Version control workflow
 * [Week 3](https://github.com/mnybe1/STAT545-participation/tree/master/Week%203)
@@ -21,13 +21,13 @@ More data wrangling and plotting
 ## Homework
 - [x] [Assignment 1](https://github.com/mnybe1/STAT545-participation/blob/master/README.md)
 
-- [ ] Assignment 2
+- [x] [Assignment 2](https://stat545-ubc-hw-2019-20.github.io/stat545-hw-mnybe1hw02/hw02.html)
 
-- [ ] Assignment 3
+- [x] [Assignment 3](https://stat545-ubc-hw-2019-20.github.io/stat545-hw-mnybe1/hw03/hw03_dplyrggplot.html)
 
-- [ ] Assignment 4
+- [x] [Assignment 4](https://stat545-ubc-hw-2019-20.github.io/stat545-hw-mnybe1/hw04/hw04.html)
 
-- [ ] Assignment 5
+- [x] [Assignment 5](https://stat545-ubc-hw-2019-20.github.io/stat545-hw-mnybe1/hw05/hw05.html)
 
 
 
