@@ -91,7 +91,6 @@ Did you know that you can make interactive graphs and plots in R using the plotl
 This is a preview of what we'll be doing in STAT 547 - making dynamic and interactive dashboards using R!
 
 ```{r}
-install.packages("plotly")
 library(plotly)
 library(tidyverse)
 library(gapminder)
