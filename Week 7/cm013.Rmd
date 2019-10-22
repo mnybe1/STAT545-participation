@@ -75,8 +75,8 @@ The 2 y axes have very different scales  - a factor of 100 different between lef
 We will be filling these principles in together as a class
 
 1. Less is more!
-2. 
-3. 
+2. Effective use of colour
+3. Be mindful of axes (units and names)
 
 ### Make a great plot worse
 
